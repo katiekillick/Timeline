@@ -1,6 +1,10 @@
 library(shiny)
 library(timevis)
 
+#TODO: add data and link
+#TODO: rewrite base functions with dplyr where sensible
+#TODO: add if statements to libraries
+#TODO: add more comments
 
 options <- list(min="01/01/2010", max="01/01/2020", zoomMin=86400000, type="point")
 
